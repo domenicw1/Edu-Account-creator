@@ -373,9 +373,11 @@ def orange(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 
@@ -677,9 +679,11 @@ def barbara(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+ print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 
@@ -808,9 +812,11 @@ def Canada(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 def Solano(name,pw,email,first,last,number,ssn, street, city, zipcode):
@@ -941,9 +947,11 @@ def Solano(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 def ccsf(name,pw,email,first,last,number,ssn, street, city, zipcode):
@@ -1081,9 +1089,11 @@ def ccsf(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 
@@ -1235,9 +1245,11 @@ def San_Bernardino(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 
@@ -1389,9 +1401,11 @@ def Crafton(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 def San_Bernardino(name,pw,email,first,last,number,ssn, street, city, zipcode):
@@ -1539,9 +1553,11 @@ def San_Bernardino(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 
@@ -1687,9 +1703,11 @@ def Santa_Monica(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 
@@ -1880,9 +1898,11 @@ def Coastline(name,pw,email,first,last,number,ssn, street, city, zipcode):
     driver.quit()
     time.sleep(3)
     generated += 1
-    print(generated , "/" , accounts , " Accounts are done!")
+    print(generated , "/" , accounts , " Accounts are done! Check accountsb.txt for the tempr.email address which the login will be sent to.")
+    print("Please note that receiving the login information can take a few days. If you don't receive it within a week, try another college.")
     with open("accountsb.txt", "a+") as file:
-        file.write(name + ":" + pw + "  Email:" + email + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
+        file.write("Email: " + email)
+        file.write(name + ":" + pw + " " + first + " " + last + " SSN: " + ssn + " number: " + number)
         file.write("\n")
 
 if platform.system() == "Windows": #checking OS
@@ -1892,27 +1912,15 @@ else:
 
 
 print("""""
-▓█████ ▓█████▄  █    ██        ███▄ ▄███▓ ▄▄▄       ██▓ ██▓           ▄████▄   ██▀███  ▓█████ ▄▄▄     ▄▄▄█████▓ ▒█████   ██▀███  
-▓█   ▀ ▒██▀ ██▌ ██  ▓██▒      ▓██▒▀█▀ ██▒▒████▄    ▓██▒▓██▒          ▒██▀ ▀█  ▓██ ▒ ██▒▓█   ▀▒████▄   ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒
-▒███   ░██   █▌▓██  ▒██░      ▓██    ▓██░▒██  ▀█▄  ▒██▒▒██░          ▒▓█    ▄ ▓██ ░▄█ ▒▒███  ▒██  ▀█▄ ▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒
-▒▓█  ▄ ░▓█▄   ▌▓▓█  ░██░      ▒██    ▒██ ░██▄▄▄▄██ ░██░▒██░          ▒▓▓▄ ▄██▒▒██▀▀█▄  ▒▓█  ▄░██▄▄▄▄██░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄  
-░▒████▒░▒████▓ ▒▒█████▓       ▒██▒   ░██▒ ▓█   ▓██▒░██░░██████▒      ▒ ▓███▀ ░░██▓ ▒██▒░▒████▒▓█   ▓██▒ ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒
-░░ ▒░ ░ ▒▒▓  ▒ ░▒▓▒ ▒ ▒       ░ ▒░   ░  ░ ▒▒   ▓▒█░░▓  ░ ▒░▓  ░      ░ ░▒ ▒  ░░ ▒▓ ░▒▓░░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░
-░ ░  ░ ░ ▒  ▒ ░░▒░ ░ ░       ░  ░      ░  ▒   ▒▒ ░ ▒ ░░ ░ ▒  ░        ░  ▒     ░▒ ░ ▒░ ░ ░  ░ ▒   ▒▒ ░   ░      ░ ▒ ▒░   ░▒ ░ ▒░
-░    ░ ░  ░  ░░░ ░ ░       ░      ░     ░   ▒    ▒ ░  ░ ░         ░          ░░   ░    ░    ░   ▒    ░      ░ ░ ░ ▒    ░░   ░ 
-░  ░   ░       ░                  ░         ░  ░ ░      ░  ░      ░ ░         ░        ░  ░     ░  ░            ░ ░     ░     
-        ░                                                            ░                                                           
-
+EDU Email Generator
 \n
-
-by Exploit
-
+KevinLage
 
 """""                                                                                                             
 )
 
 
-accounts = int(input("How many Accounts do u want?\n"))
+accounts = int(input("How many accounts do you want? (Recommended: 1)\n"))
 
 use_captcha = input("[1]2Captcha \n[2]Manually\n")
 if use_captcha == "1":
@@ -1925,7 +1933,7 @@ else:
     exit()
 
 
-collage = input("Which Collage?\n1. Sacramento (Google Drive) \n2. Coastline (Azure RDP / maybe broke)\n3. Crafton Hills \n4. San Bernardino\n5. Santa Monica\n6. Solano\n7. CCSF\n8. Canada College\n9. Santa Barbara\n10. Gavilan College\n11. Orange Coast College\n")
+collage = input("Select a college. I recommend CCSF!\n1. Sacramento (Google Drive) \n2. Coastline (Azure RDP / maybe broke)\n3. Crafton Hills \n4. San Bernardino\n5. Santa Monica\n6. Solano\n7. CCSF\n8. Canada College\n9. Santa Barbara\n10. Gavilan College\n11. Orange Coast College\n")
 
 if collage == "1":
     print("[*] Sacremento")
